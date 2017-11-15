@@ -20,8 +20,7 @@ public class Fio extends Thread{
    
     public void run(){
       
-     //Si inicias una nueva caja al llamar a run, cada hilo tiene la suya propia, no la que le pasabas al constructor
-        //Caja c = new Caja();
+   
         
         for(int i=0;i<20;i++){
            
